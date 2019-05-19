@@ -1,0 +1,236 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+}
+
+.navbar-nav {
+    margin-left: 360px;
+    justify-content: space-around;
+}
+
+.navbar-nav a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.nav-item {
+    border-right: 1px solid rgb(230, 230, 230);
+}
+
+
+/*****************************Mise en place du slider diaporama****************************/
+
+.diaporama {
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    border: 3px solid #E7EBE2;
+    background-image: url('images/fabrique.jpg');
+    /*********************************************************/
+    -webkit-animation-name: diapo1;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    /*********************************************************/
+    -moz-animation-name: diapo1;
+    -moz-animation-duration: 6s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    /*********************************************************/
+    animation-name: diapo1;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    /*********************************************************/
+}
+
+@-webkit-keyframes diapo1 {
+    0% {
+        background-image: url('images/slide.jpg');
+    }
+    33% {
+        background-image: url('images/juice.jpg');
+    }
+    66% {
+        background-image: url('images/image.jpg');
+    }
+}
+
+@-moz-keyframes diapo1 {
+    0% {
+        background-image: url('images/slide.jpg');
+    }
+    33% {
+        background-image: url('images/juice.jpg');
+    }
+    66% {
+        background-image: url('images/image.jpg');
+    }
+}
+
+@keyframes diapo1 {
+    0% {
+        background-image: url('images/slide.jpg');
+    }
+    33% {
+        background-image: url('images/juice.jpg');
+    }
+    66% {
+        background-image: url('images/image.jpg');
+    }
+}
+
+
+/*****************************Début éléments du contaianer****************************/
+
+#container {
+    height: 900px;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.sidebar-left {
+    float: left;
+    border: 3px solid rgb(255, 255, 255);
+    margin-left: 20px;
+    width: 410px;
+    min-height: 500px;
+}
+
+.sidebar-right {
+    float: right;
+    border: 3px solid rgb(255, 255, 255);
+    margin-right: 20px;
+    width: 700px;
+    min-height: 720px;
+}
+
+.myBox {
+    border: none;
+    padding: 5px;
+    font: 20px sans-serif;
+    width: 310px;
+    height: 500px;
+    overflow: scroll;
+}
+
+
+/* Scrollbar styles */
+
+ ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(192, 255, 115);
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #88ba1c;
+}
+
+
+/**********************Mise en place du footer******************/
+
+.footer-main-div {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #133335;
+    padding: 20px 0px;
+}
+
+.footer-social-icons {
+    width: 100%;
+    height: 260px;
+    margin: auto;
+}
+
+.footer-social-icons ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-left: 420px;
+}
+
+.footer-social-icons ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+}
+
+.footer-social-icons ul li a {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.footer-social-icons ul li a i {
+    line-height: 50px;
+}
+
+#div1 {
+    float: left;
+    width: 430px;
+}
+
+#div2 {
+    float: right;
+    width: 400px;
+}
+
+.paragraphe1 {
+    color: #E7EBE2;
+}
+
+.paragraphe2 {
+    display: inline-block;
+    color: #E7EBE2;
+}
+
+.paragraphe3 {
+    color: #E7EBE2;
+    margin-right: 350px;
+}
+
+#contact {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    list-style: none;
+}
+
+#contact li {
+    display: block;
+    width: 220px;
+    height: auto;
+    margin: 0px 10px;
+}
+
+#contact li a {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+div.bordure {
+    border-bottom: 1px solid rgb(231, 231, 231);
+    width: auto;
+}
+
+.form {
+    height: 130px;
+}
+
+.form-group {
+    display: inline-block;
+}

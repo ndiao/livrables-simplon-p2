@@ -1,0 +1,1 @@
+onclick="alert('Votre commande a été pris en compte! Vérifiez votre boite mail pour le détail'); return(false);"
